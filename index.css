@@ -789,6 +789,7 @@ html {
 
   .textbox,
   .textboxtwo {
+   hight:90%;
     width: 80%; /* Make the boxes wider on smaller screens */
     margin: 5rem auto; /* Center the boxes */
   }
