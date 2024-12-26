@@ -866,7 +866,7 @@ html {
     /* Allow height to adjust based on content */
     margin-left: 5%; /* Center the box */
     margin-top: 5rem; /* Adjust margin */
-    border: 3px solid grey; /* Slightly reduce border size */
+   
   }
 
   .textboxabout h1 {
