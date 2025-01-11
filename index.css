@@ -84,7 +84,7 @@ nav a:hover {
   cursor: pointer;
 }
 .image {
-  background: url("1.png") no-repeat center center;
+  background: url("menu.png.lnk") no-repeat center center ;
   background-size: cover;
   height: 100vh;
 }
@@ -324,10 +324,10 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 7rem;
 }
 .menucontainer h2 {
-  margin-top: 25px;
+  
   text-align: center;
   font-size: 40px;
   font-family: "Itim", serif;
@@ -338,10 +338,11 @@ button:hover {
 .menu {
   display: flex;
   gap: 30px;
-  margin-top: 70px;
+ 
 }
 
 .menubox {
+  margin-top: 5rem;
   width: 260px;
   height: 180px;
   border: 4px solid white;
@@ -355,6 +356,7 @@ button:hover {
   object-fit: cover; /* Ensure the image covers the box without distortion */
 }
 .menutext {
+  margin-left: 30px;
   display: flex;
   margin-top: 60px;
   gap: 50px;
@@ -779,12 +781,15 @@ html {
     object-fit: cover;
     height: 100vh; /* Adjust height for smaller screens */
   }
-
+ 
+#service{
+  display: hidden;
+}
   button {
+    margin-left: 120px;
     width: 70px; /* Adjust button width for small screens */
     height: 30px; /* Adjust button height */
     font-size: 12px; /* Adjust font size */
-    margin-top: 23rem;
   }
 
   .homecontainer h1 {
@@ -833,24 +838,25 @@ html {
   }
 
   .animation {
-    margin-right: 20px;
+    margin-left: -40px;
     width: 100%;
     flex-direction: column; /* Stack animations vertically */
     gap: 20px; /* Reduce gap */
   }
 
   .cardone {
+    display: none;
     flex-direction: column; /* Stack cards vertically */
     gap: 30px; /* Reduce gap */
   }
 
   .card {
     width: 100%; /* Make cards responsive */
-    height: auto; /* Allow height to adjust based on content */
+    height: 40%; /* Allow height to adjust based on content */
   }
 
   .textboxabout {
-    border: none;
+  
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -872,7 +878,7 @@ html {
     /* Allow height to adjust based on content */
     margin-left: 5%; /* Center the box */
     margin-top: 5rem; /* Adjust margin */
-   border: none;
+    border: none;
   }
 
   .textboxabout h1 {
@@ -898,21 +904,24 @@ html {
   }
 
   .menucontainer {
-    margin-top: 20rem;
+    margin-top: 23rem;
   }
 
   .menu {
+    margin-top: 25px;
     flex-direction: column; /* Stack menu items vertically */
     align-items: center; /* Center align items */
     gap: 20px; /* Reduce gap between items */
   }
 
   .menubox {
+    margin: 15px;
     width: 90%; /* Make the menu boxes take up most of the width */
     margin-left: 0; /* Remove left margin */
   }
 
   .menutext {
+    margin: 15px;
     flex-direction: column; /* Stack text boxes vertically */
     align-items: center; /* Center align text boxes */
     gap: 20px; /* Reduce gap between text boxes */
@@ -1038,7 +1047,9 @@ html {
       left: 1rem; /* Adjust icon position */
       top: 0.5rem; /* Adjust icon position */
     }
-
+.footercontainer{
+  margin-top: -13rem;
+}
   
     
   }
