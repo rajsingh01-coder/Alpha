@@ -84,7 +84,7 @@ nav a:hover {
   cursor: pointer;
 }
 .image {
-  background: url("menu.png.lnk") no-repeat center center ;
+  background: url("1.png") no-repeat center center ;
   background-size: cover;
   height: 100vh;
 }
